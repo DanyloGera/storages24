@@ -1,0 +1,45 @@
+body {
+  background-image: url(https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202034/0687/classic-rim-porcelain-dinner-plates-o.jpg);
+  background-size: auto;
+display: flex;
+justify-content: center;
+}
+
+.button1 {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  background-image: url(./cookee.png);
+  background-size: cover;
+  margin-right:  150px;
+
+}
+.button2 {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  background-image: url(./cookee.png);
+  background-size: cover;
+  margin-left: 150px;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+}
+#res1 {
+  border: 5px double #000;
+  margin-right: 150px;
+}
+#res2 {
+  border: 5px double #000;
+  margin-left: 150px;
+}
+#btn-reset1{
+  margin-right: 150px;
+}
+#btn-reset2 {
+  margin-left: 150px;
+}
+h1 {
+  text-align: center;
+}
